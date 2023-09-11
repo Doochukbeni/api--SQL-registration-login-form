@@ -30,7 +30,7 @@ export const register = (req, res) => {
 };
 
 export const login = (req, res) => {
-  //  CHECK IF USER ALREADY EXISTS
+  //  CHECK IF USER  EXISTS
 
   const q = "SELECT * FROM users WHERE email = ? ";
 
